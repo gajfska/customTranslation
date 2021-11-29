@@ -1,0 +1,48 @@
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid mx-5">
+    <a class="navbar-brand">{{'navbar.title' | customTranslate}}</a>
+
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-light" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {{'navbar.chooseLanguage' | customTranslate}}
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li><button class="dropdown-item" (click)="setLanguage(languagesEnum.pl)">{{'language.polish' | customTranslate}}</button></li>
+        <li><button class="dropdown-item" (click)="setLanguage(languagesEnum.en)">{{'language.english' | customTranslate}}</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex justify-content-evenly mt-4">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{'title.cardTitle' | customTranslate:'pipe'}}</h5>
+      <p class="card-text">{{'description.text' | customTranslate}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{'item.firstItem' | customTranslate}}</li>
+      <li class="list-group-item">{{'item.secondItem' | customTranslate}}</li>
+      <li class="list-group-item">{{'item.thirdItem' | customTranslate}}</li>
+    </ul>
+    <div class="card-footer">
+      {{'footer.label' | customTranslate: 'Weronika'}}
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{languageService.translate('title.cardTitle', 'service')}}</h5>
+      <p class="card-text">{{languageService.translate('description.text')}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{languageService.translate('item.firstItem')}}</li>
+      <li class="list-group-item">{{languageService.translate('item.secondItem')}}</li>
+      <li class="list-group-item">{{languageService.translate('item.thirdItem')}}</li>
+    </ul>
+    <div class="card-footer">
+      {{languageService.translate('footer.label', 'Weronika')}}
+    </div>
+  </div>
+</div>
+

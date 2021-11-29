@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "title": "Projekt tłumacz",
+    "chooseLanguage": "Wybierz język"
+  },
+  "language": {
+    "english": "Angielski",
+    "polish": "Polski"
+  },
+  "title": {
+    "cardTitle": "Tłumaczenia przez {{element}}"
+  },
+  "description": {
+    "text": "Kot to jedno z najpopularniejszych zwierząt domowych. Gatunek ten charakteryzuje się wysokim indywidualizmem, dlatego też często można spotkać się z opinią, że jego przedstawiciele \"chodzą własnymi ścieżkami\""
+  },
+  "item": {
+    "firstItem": "Pierwszy kot",
+    "secondItem": "Drugi kot",
+    "thirdItem": "Trzeci kot"
+  },
+  "footer": {
+    "label": "Do widzenia, {{name}}!"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "title": "Translation project",
+    "chooseLanguage": "Choose language"
+  },
+  "language": {
+    "english": "English",
+    "polish": "Polish"
+  },
+  "title": {
+    "cardTitle": "Translations by {{element}}"
+  },
+  "description": {
+    "text": "A cat is one of the most popular pets. This species is characterized by high individualism, which is why you can often hear the opinion that its representatives \"walk their own paths\""
+  },
+  "item": {
+    "firstItem": "First cat",
+    "secondItem": "Second cat",
+    "thirdItem": "Third cat"
+  },
+  "footer": {
+    "label": "Bye, {{name}}!"
+  }
+}
